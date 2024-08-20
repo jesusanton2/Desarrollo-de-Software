@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    #video{
+        height: 280px;
+        width: 200px;
+    }
+   </style>
+</head>
+<body>
+    
+    <header>
+        <h1> Trabajo Practico HTML</h1>
+        <ul>
+            <li><a href="#estructura">Estructura</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </header>
+
+   <div id="estructura">
+     <h1>1.Estructura Basica del Documento HTML </h1>
+     <p>Este documento HTML tiene una estructura basica que incluye la declaracion DOCTYPE, etiquetas
+         y un titulo.</p>
+        </div>
+
+        <div>
+      <h2>2.Encabezados y Propiedades del Texto</h2>
+      <h3 style="color: black;">Este es un texto en negrita</h3>
+      <h4><i>Este es un texto en cursiva</i></h4>
+      <h5><u>Este es un texto subrayado</u></h5>
+      <h6 style="font-style: normal;"> Este es un texto</h6>
+       </div>
+
+      <div>
+      <h1>3. Divisiones y agrupaciones de Contenido</h1>
+      <div> 
+        <h2>Seccion 1</h2>
+        <p>Contenido de la primera seccion agrupada en un div.</p>
+    </div>
+
+
+    <div> 
+        <h2>Seccion 2</h2>
+        <p>Contenido de la segunda seccion agrupada en un div.</p>
+    </div>
+</div>
+
+<div>
+    <h1>4. Enlaces y Listas</h1>
+
+    <p>Vista nuesto <a href="https://www4.frm.utn.edu.ar/">sitio web</a> para mas informacion</p>
+
+    <h5>Enlaces Internos :</h5>
+
+    <ul>
+        <li><a href="#estructura">Ir a Estructura</a></li>
+        <li><a href="#multimedia">Ir a Multimedia</a></li>
+        <li><a href="#formulario">Ir a Formulario</a></li>
+    </ul>
+    
+    <h5>Listas desordenadas :</h5>
+    <ul>Primer item de una lsita desordenada</ul>
+    <ul>Segundo item de una lsita desordenada</ul>
+
+    <h5>Lista Ordenada</h5>
+    <ol>Priemer Item de una lista desordenada</ol>
+    <ol>Priemer Item de una lista ordenada</ol>
+</div>
+<div id="multimedia">
+    <h2>5. Elementos multimedia</h2>
+
+     <img src="Logo.png" id="Logo">
+     <video controls id="video"> 
+        <source src="../HTML/videohtml.mp4 " type="video/mp4" >
+        Your browser does not suppirt the video tag
+     </video>
+     <audio controls id="audio">
+        <source src="../HTML/audiohtml.mp3" type="audio/mp3">
+        Your browser does not suppirt the video tag
+     </audio>
+    
+</div>
+
+<div >
+    <h2>6. Tablas</h2>
+<table style="border-style: dashed;">
+    <thead >
+        
+            <tr >
+               <td style="border-style: dashed;">Columna 1</td>
+               
+               <td style="border-style: dashed;">Columna 2</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border-style: dashed;">Dato 1</td>
+                <td style="border-style: dashed;">Dato 2</td>
+             </tr>
+
+            </tbody>
+            <tbody>
+                <tr>
+                    <td style="border-style: dashed;">Dato 1</td>
+                    <td style="border-style: dashed;">Dato 2</td>
+                 </tr>
+    
+                </tbody>
+                 
+            </table>  
+</div>
+
+<div id="formulario" >
+    <h2>7. Formulario</h2>
+    <form>
+        <fieldset>
+            <label for="nombre">Nombre: </label><input type="text" id="nombre"/>
+            <label for="email">Email: </label><input type="text" id="email"/>
+            <label for="mensaje">Mensaje: </label><input type="text" id="mensaje"/>
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+    </fom>
+</div>
+</body>
+</html>
