@@ -99,3 +99,25 @@ body{
     border-radius: 5%;
     border: 1px solid #bb8355;
 }
+
+.container-animaciones{
+    display: flex;
+}
+.container-animaciones button:hover{
+  cursor: pointer;
+  background-color: brown;
+}
+
+.animacion{
+    margin-left: 70px;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    transition: 0.5s ;
+    
+}
+
+.animacion:hover{
+    cursor: pointer;
+    background-color: coral;
+}
